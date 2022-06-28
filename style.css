@@ -23,6 +23,7 @@
 .body {
   width: 800px;
   margin: 20px auto;
+  background-color: #f3f3f3;
 }
 
 body main section {
@@ -94,21 +95,22 @@ li.row {
   border-radius: 20px;
   border: 5px solid gray;
   background-color: whitesmoke;
+  box-shadow: inset 10px 10px 20px rgb(0 0 0 / 70%);
 }
 
 .ball {
-  height: 36px;
-  width: 36px;
+  height: 40px;
+  width: 40px;
   margin: 0 5px;
   border-radius: 50%;
 }
 
 .blue {
-  border: 2px solid blue;
+  background: radial-gradient(circle at 13px 13px, #6D93DB, black);
 }
 
 .red {
-  border: 2px solid magenta;
+  background: radial-gradient(circle at 13px 13px, #FA9ECD, black);
 }
 
 .phantom {
